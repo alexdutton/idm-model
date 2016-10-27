@@ -7,3 +7,4 @@ else
 fi
 
 django-admin.py graph_models -a -o models.png --settings=idm_model.settings --pythonpath=. --layout=fdp
+django-admin.py graph_models -a -o models.dot --settings=idm_model.settings --pythonpath=. --layout=fdp
